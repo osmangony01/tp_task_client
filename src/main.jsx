@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Task from './components/Task.jsx'
+import { RouterProvider } from 'react-router-dom'
+import router from './routes/Routes'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Task />
+    <RouterProvider router={router}></RouterProvider>
   </React.StrictMode>,
 )
