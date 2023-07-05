@@ -1,8 +1,13 @@
+import useServices from "../hooks/useServices";
 
 const Task = () => {
+    const [services] = useServices();
+    console.log(services);
+
     return (
-        <div>
-            task
+        <div className="px-60">
+            
+
         </div>
     );
 };
