@@ -1,4 +1,6 @@
-const { createBrowserRouter } = require("react-router-dom");
+import { createBrowserRouter } from "react-router-dom";
+import Task from "../components/Task";
+
 
 const router = createBrowserRouter([
     {
