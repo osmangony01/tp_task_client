@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-import Task from "../components/Task";
+import Services from "../components/Services";
 
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Task></Task>
+        element: <Services></Services>
     }
 ])
 
